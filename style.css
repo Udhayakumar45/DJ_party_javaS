@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 72px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    opacity: .8;
+}
+body{
+    
+    background-size: cover;
+    background-image: linear-gradient(rgba(107, 81, 104, 0.3), rgb(50, 177, 203)),url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxi3NdwK6huejw6gOv5MyqN-Ob0-p-9gW_bw&usqp=CAU')
+}
